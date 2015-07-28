@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:sheepm="http://schemas.android.com/apk/res/com.example.zhihuloading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"  
+    tools:context=".MainActivity" >
+
+    <com.example.zhihuloading.LoadingView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        sheepm:blockcolor ="#FFFF00"
+        sheepm:bgcolor ="#FF0000"
+        />
+
+
+</RelativeLayout>
